@@ -42,7 +42,6 @@ def regress(x,y):
     y_pred=[]
     for i in range(0,len(x)):
         y_pred.append(results.slope*x[i]+results.intercept)
-        i=i+1
     plt.plot(x,y_pred,label=f"Fitted Line:Y={results.slope:.2f}*X+{results.intercept:.2f}",color="green")
     plt.legend()
     plt.title("Linear regression of excess stock returns on excess index returns")
