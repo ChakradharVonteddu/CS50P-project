@@ -1,4 +1,4 @@
-# Estimating the coefficients of the capital asset pricing model using linear regression
+# Estimating beta for the capital asset pricing model using linear regression
 ### Description:
 #### I. Overview of the CAPM model: <br>
 The Capital-asset pricing model(CAPM) is a relationship between the risk premium of a specific asset and the risk premium of the broader market for the asset's class. The parameters in this model include the asset's beta (measure of its relative volatility),the risk-free rate i.e. the US treasury bill rate, the specific asset's returns and the market's returns. We calculate the risk premium by subtracting the risk free rate from the expected returns. Mathematically, this model can be represented as: <br>
