@@ -25,7 +25,7 @@ def data(ticker):
 def excess_returns(prices):
     riskfree_rate=[]
     excess=[]
-    with open("F-F_Research_Data_5_Factors_2x3_daily.csv") as file:
+    with open("Data.csv") as file:
         reader=csv.reader(file)
         for row in reader:
             if 2011<=int(row[0][0:4])<=2023:
