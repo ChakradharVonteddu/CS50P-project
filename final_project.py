@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import yfinance as yf
-from scipy import stats
 import csv
 import statsmodels.api as sm
 
